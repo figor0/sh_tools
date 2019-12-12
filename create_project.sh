@@ -1,13 +1,16 @@
 #!/bin/bash
 
 arg1=$1
-cmake_=CMakeLists.txt
+cmake=CMakeLists.txt
 mkdir $arg1
 cd $arg1
-touch $cmake_
+touch $cmake
 touch main.cpp
-mkdir src include libs modules
-touch libs/$cmake_
-touch modules/$cmake_
+mkdir src include libs modules tests tests/unit_test
+touch libs/$cmake
+touch tests/$cmake
+touch modules/$cmake
+touch libs/$cmake
+touch modules/$cmake
 git init
 cd ..
