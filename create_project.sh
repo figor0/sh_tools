@@ -8,7 +8,7 @@ touch $cmake
 touch main.cpp
 mkdir src include libs modules tests tests/unit_test
 touch libs/$cmake
-touch tests/$cmake
+touch tests/$cmake tests/unit_test/$cmake
 touch modules/$cmake
 touch libs/$cmake
 touch modules/$cmake
